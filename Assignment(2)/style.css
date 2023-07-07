@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-radius: 10px;
+}
+
+.container{
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0 4em;
+    border-radius: 35px 35px 0px 0px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  
+}
+.logo-img:hover{
+    color: aqua;
+}
+
+.navbar-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+
+#icon1:hover{
+    color: aqua;
+}
+
+#icon2:hover{
+    color: aqua;
+}
+
+#icon3:hover{
+    color: aqua;
+}
+
+#icon4:hover{
+    color: aqua;
+}
+
+.navbar-icon{
+    gap: 50px;
+}
+
+.dot-icon{
+    display: flex;
+    justify-content: center;
+  font-size: 40px;
+  align-items: center;
+}
+
+.token-btn{
+    /* background-color: violet; */
+}
+
+.btn{
+    background-color: rgb(5, 82, 118);
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: aqua;
+}
+
+.background-image{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 1160px;
+    height: 100vh;   
+    background-image: url(./background\ 5.png);
+}
+
+.xyz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 130px;
+    padding-left: 100px;
+}
+
+.heading{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 100px;
+}
+
+.title{
+    font-weight: 600;
+    color: black;
+    
+}
+
+.btn5{
+    background-color: rgb(24, 146, 216);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn5:hover{
+    color: aqua;
+}
+
+.accses-btn{
+    margin-top: 20px;
+}
